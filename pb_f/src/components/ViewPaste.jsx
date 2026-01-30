@@ -11,7 +11,7 @@ export default function ViewPaste() {
   const [loading, setLoading] = useState(true);
   const [copied, setCopied] = useState(false);
 
-  const API_BASE = "http://localhost:8081";
+  const API_BASE = "pastebinbackend-production-4f72.up.railway.app";
 
   useEffect(() => {
     if (!id) {
