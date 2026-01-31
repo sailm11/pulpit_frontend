@@ -1,4 +1,4 @@
-const API_BASE = "pastebinbackend-production-4f72.up.railway.app";
+const API_BASE = "https://pastebinbackend-production-4f72.up.railway.app"
 
 async function parseJsonSafely(res) {
   const contentType = res.headers.get("content-type");
